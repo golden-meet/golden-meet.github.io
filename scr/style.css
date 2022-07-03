@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Righteous', cursive;
+}
+body{
+    background-color: #FCECDD;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #cd9a6c;
+    padding: 5px;
+    border-radius: 0px 0px 20% 20%;
+    border: 5px dotted #FCECDD;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+header a{  
+    text-decoration: none;
+    font-size :25px;
+    margin: 3px;
+    color:#FCECDD;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+    .about,.features,.download{
+        display: flex;
+        align-items: center;
+    }
+
+    .about_text,.features_text,.download_text,.feedback_text{
+        display: flex; 
+        justify-content: center;
+    }
+
+h2{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+#laptop{
+    width: 300px;
+}
+
+.line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+svg{
+    fill:#FEA82F;
+}
+
+table,td,th{
+    border: 1px dotted #333;
+}
+
+thead{
+    background-color: #FF6701;
+    color: #FCECDD;
+}
+
+th,td{
+    text-align: center;
+    font-size: 30px;
+    margin: 5px;
+}
+
+table{
+    width: 300px;
+    margin: auto;
+    
+}
+
+.android,.ios,.linux,.web,.mac,.windows{
+    text-align: center;
+    font-size: 25px;
+    border: 5px dotted #FF6701;
+    border-radius:50px ;
+    padding: 20px;
+    margin: 15px;
+    text-decoration: none;
+}
+
+.ios h6 img{
+    margin-left: 5px;
+    margin-top: 15px;
+    height: 25px;
+    width: 25px;
+}
+.linux h6 img{
+    padding: 5px;
+    border-radius: 0px 0px 20% 20%;
+    border: 5px dotted #FCECDD;    margin-left: 5px;
+    margin-top: 15px;
+    height: 25px;
+    width: 25px;
+}
+
+.download{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mac h6 img{
+    margin-left: 5px;
+    margin-top: 15px;
+    height: 25px;
+    width: 25px;
+}
+
+.mac img{
+    width: 50px;
+}
+.web img{
+    width: 50px;
+}
+.windows h6 img{
+    margin-left: 5px;
+    margin-top: 15px;
+    height: 25px;
+    width: 25px;
+}
+
+/* .feedback{
+margin: 50px;
+background-color: #FFC288;
+padding: 15px;
+display: flex;
+flex-direction: column;
+text-align: center;
+
+border-radius: 0px 50px 0px 50px;
+border: 10px coral double;
+
+animation: border-rad 5s;
+animation-iteration-count: infinite;
+}
+#email,#feed{
+    border: none;
+    border-radius: 50px;
+    color:#FF6701;
+    background-color: #FCECDD;
+    text-align: center;
+}
+#email::placeholder,#feed::placeholder{
+    color: #333;
+}
+
+label{
+    margin: 10px;
+}
+
+
+
+@keyframes border-rad {
+    0%{
+        border-radius:0px 50px 0px 50px;
+    }
+    10%{
+        border-radius:50px 0px 50px 0px;
+    }
+    20%{
+        border-radius:0px 50px 50px 0px;
+    }
+    30%{
+        border-radius:0px 50px 0px 50px;
+    } 
+    40%{
+        border-radius:0px 0px 50px 50px;
+    }
+    50%{
+        border-radius:50px 0px 0px 50px;
+    } 
+    60%{
+        border-radius:50px 50px 0px 0px;
+    }
+    70%{
+        border-radius:50px 50px 50px 0px;
+    }
+    80%{
+        border-radius:50px 50px 50px 50px;
+    }
+    90%{
+        border-radius:50px 0px 50px 50px;
+    }
+    100%{
+        border-style:50px 0px 0px 50px;
+    }
+}
+
+#feed{
+    height:200px; 
+    font-size:14pt;
+}
+#button{
+    margin: 10px;
+    width: 100px;
+    height:50px;
+    border: dashed #cd9a6c 4px;
+    border-radius: 100px;
+} */
+
+footer{
+    margin: 0px;
+    background-color: #ffffff;
+    height: 30px;
+    padding: 5px;
+    border: 5px dotted #FEA82F;
+    border-radius: 20% 20% 0% 0%;
+    font-size: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
